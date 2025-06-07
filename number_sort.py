@@ -2,8 +2,10 @@ from num2words import num2words
 from word2number import w2n
 import pandas as pd
 
-max_num = 1e+6 # aximum number to be counted to from 0 on (both edges inclusiv)
-    
+max_num = 1e1 # aximum number to be counted to from 0 on (both edges inclusiv)
+
+
+# itterate over numbers and sort them
 for i in range(10):
     max_num = 1*10**(i)
     max_num = int(max_num)
